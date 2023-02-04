@@ -1,0 +1,52 @@
+
+/*contenitore prima citazione*/
+.contenitore-prima-citazione{
+    display:flex;
+     align-items: center;
+}
+/*stile titoli*/
+h1{
+    text-align: center;
+    color: rgba(174, 10, 10, 0.712);
+    font-family: cursive;
+}
+h2{
+    text-align: center;
+    color: rgb(19, 113, 214);
+    font-family: cursive;
+}
+h3{
+    text-align: center;
+    color:rgb(134, 40, 196);
+    font-family: cursive;
+}
+/*stile prima lista*/
+.blocco-prima-lista{
+    display: flex;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background: linear-gradient(45deg, blue, green);
+    color:blueviolet
+  
+    
+}
+
+/*stile singoli elementi prima lista*/
+.primo-elemento-lista,.secondo-elemento-lista,.terzo-elemento-lista,.quarto-elemento-lista,.quinto-elemento-lista,.sesto-elemento-lista,.settimo-elemento-lista,.ottavo-elemento-lista,.nono-elemento-lista,.decimo-elemento-lista,.undicesimo-elemento-lista,.dodicesimo-elemento-lista{
+padding-bottom: 0.5em;
+}
+
+/*stile elementi ancora lista*/
+a{
+    color:red;
+}
+
+body{
+    font-size: 1.5rem;
+    max-width: 75ch;
+    margin:auto;
+    align-items: center;
+    font-family: Georgia, serif;
+}

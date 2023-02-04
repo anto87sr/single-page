@@ -1,0 +1,40 @@
+html{
+    margin: 12px;
+}
+body{
+    background-color: aqua;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*questo è un commento*/
+h2,h1 {
+    text-align: center;
+}
+
+ol.lista-non-ordinata{
+   box-sizing: border-box;
+   border: 1;
+   padding: 10px 60px;
+    margin-left: 30px;
+    width: 80%;
+}
+
+#titolo-principale{
+    color:brown;
+}
+
+h1 {
+    color: rebeccapurple;
+}
+
+.lista-non-ordinata{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+li{
+   
+}
